@@ -19,7 +19,9 @@ int main() {
     double t = 10;
     
     double T = pi*sqrt(H/(2*a));
+    
     double h = H/2*(1-cos((sqrt((2*a)/H))*t));
+    
     double v = sqrt(a*H/2);
     
     cout << "Продолжительность:" << T << endl;
